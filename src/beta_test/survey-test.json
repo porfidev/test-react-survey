@@ -1,0 +1,71 @@
+{
+  "name": "Survey Test",
+  "action": "http://localhost:5000/received-data/",
+  "method": "POST",
+  "fields": [
+    {
+      "name": "name",
+      "type": "text",
+      "required": true,
+      "label": "Nombre:",
+      "placeholder": "Ingresa tu nombre"
+    },
+    {
+      "name": "email",
+      "type": "email",
+      "required": true,
+      "label": "Correo Electrónico:",
+      "placeholder": "ejempo@gmail.com"
+    },
+    {
+      "name": "pizza-question",
+      "type": "textarea",
+      "label": "¿Que te gusta de la pizza?",
+      "placeholder": "escribe aquí"
+    },
+    {
+      "name": "pizza-size",
+      "type": "radio",
+      "required": true,
+      "label": "¿Que tamaño de pizza es tu preferida?",
+      "options": [
+        {
+          "label": "chica",
+          "value": "ch"
+        },
+        {
+          "label": "mediana",
+          "value": "m"
+        },
+        {
+          "label": "grande",
+          "value": "g"
+        }
+      ]
+    },
+    {
+      "name": "extra-ingredients",
+      "type": "checkbox",
+      "required": false,
+      "label": "¿Que ingredientes prefieres mas?",
+      "options": [
+        {
+          "label": "Queso",
+          "value": "cheese"
+        },
+        {
+          "label": "Peperoni",
+          "value": "peperoni"
+        },
+        {
+          "label": "Pollo",
+          "value": "chicken"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "label": "Enviar mis datos"
+    }
+  ]
+}

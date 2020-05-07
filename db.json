@@ -1,0 +1,13 @@
+{
+  "received-data": [
+    {
+      "id": "1f2862f0-02ff-4ee2-be24-2877d00c6b345",
+      "name": "Juan Arnuldo",
+      "email": "ajuan@gmail.com",
+      "pizza-size": "m",
+      "extra-ingredients": [
+        "cheese"
+      ]
+    }
+  ]
+}
